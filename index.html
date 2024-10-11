@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>billy</title>
+    <link rel="stylesheet" href="style.css">
+    <title>cat</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ff000000;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #ff000000;
+      padding: 100px;
+      text-align: center;
+    }
+
+    a {
+      color: #333;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    a:hover {
+      background-color: #ccc;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px rgb(0, 0, 0); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.226); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000000bb; 
+}
+  </style>
+</head>
+<body>
+
+
+  <nav>
+    <a href="#">Home</a>
+  </nav>
+
+</head>
+
+<body>
+    <canvas id="memeCanvas" width="500" height="500"></canvas>
+    <div id="control"
+    <div class="slider" id="backgroundSlider">
+      <img src="assets/background1.png" alt="Background 1" onclick="setAsset('background', 'assets/background1.png')" />
+      <img src="assets/background2.png" alt="Background 2" onclick="setAsset('background', 'assets/background2.png')" />
+      <img src="assets/background3.png" alt="Background 2" onclick="setAsset('background', 'assets/background3.png')" />
+      <img src="assets/background4.png" alt="Background 4" onclick="setAsset('background', 'assets/background4.png')" />
+      <img src="assets/background4.png" alt="Background 4" onclick="setAsset('background', 'assets/background4.png')" />
+      <img src="assets/background4.png" alt="Background 4" onclick="setAsset('background', 'assets/background4.png')" />
+      <img src="assets/background4.png" alt="Background 4" onclick="setAsset('background', 'assets/background4.png')" />
+      <img src="assets/background4.png" alt="Background 4" onclick="setAsset('background', 'assets/background4.png')" />
+      <img src="assets/background4.png" alt="Background 4" onclick="setAsset('background', 'assets/background4.png')" />
+      <img src="assets/background4.png" alt="Background 4" onclick="setAsset('background', 'assets/background4.png')" />
+      <img src="assets/background2.png" alt="Background 2" onclick="setAsset('background', 'assets/background2.png')" />
+      </div>
+    </div>
+
+        <!-- Preview and selection for Backgrounds -->
+        <div class="slider" id="hatSlider">
+            <img src="assets/hat1.png" alt="Hat 1" onclick="setAsset('hat', 'assets/hat1.png')" />
+            <img src="assets/hat2.png" alt="Hat 2" onclick="setAsset('hat', 'assets/hat2.png')" />
+            <img src="assets/hat3.png" alt="Hat 3" onclick="setAsset('hat', 'assets/hat3.png')" />
+            <img src="assets/hat4.png" alt="Hat 4" onclick="setAsset('hat', 'assets/hat4.png')" />
+            <img src="assets/hat5.png" alt="Hat 5" onclick="setAsset('hat', 'assets/hat5.png')" />
+            <img src="assets/hat6.png" alt="Hat 6" onclick="setAsset('hat', 'assets/hat6.png')" />
+            <img src="assets/hat7.png" alt="Hat 7" onclick="setAsset('hat', 'assets/hat7.png')" />
+            <img src="assets/hat8.png" alt="Hat 8" onclick="setAsset('hat', 'assets/hat8.png')" />
+            <img src="assets/hat9.png" alt="Hat 9" onclick="setAsset('hat', 'assets/hat9.png')" />
+            <img src="assets/hat10.png" alt="Hat 10" onclick="setAsset('hat', 'assets/hat10.png')" />
+            <img src="assets/hat11.png" alt="Hat 11" onclick="setAsset('hat', 'assets/hat11.png')" />
+        </div>
+        
+      
+        <!-- Preview and selection for Clothing -->
+        <div class="slider" id="clothingSlider">
+            <img src="assets/clothing1.png" alt="Clothing 1" onclick="setAsset('clothing', 'assets/clothing1.png')" />
+            <img src="assets/clothing2.png" alt="Clothing 2" onclick="setAsset('clothing', 'assets/clothing2.png')" />
+            <img src="assets/clothing3.png" alt="Clothing 2" onclick="setAsset('clothing', 'assets/clothing3.png')" />
+            <img src="assets/clothing4.png" alt="Clothing 2" onclick="setAsset('clothing', 'assets/clothing4.png')" />
+            <img src="assets/clothing4.png" alt="Clothing 2" onclick="setAsset('clothing', 'assets/clothing4.png')" />
+            <img src="assets/clothing4.png" alt="Clothing 2" onclick="setAsset('clothing', 'assets/clothing4.png')" />
+            <img src="assets/clothing4.png" alt="Clothing 2" onclick="setAsset('clothing', 'assets/clothing4.png')" />
+            <img src="assets/clothing4.png" alt="Clothing 2" onclick="setAsset('clothing', 'assets/clothing4.png')" />
+            <img src="assets/clothing4.png" alt="Clothing 2" onclick="setAsset('clothing', 'assets/clothing4.png')" />
+            <img src="assets/clothing4.png" alt="Clothing 2" onclick="setAsset('clothing', 'assets/clothing4.png')" />
+        </div>
+
+        <!-- Preview and selection for Wings -->
+        <div class="slider" id="wing-Slider">
+            <img src="assets/wing1.png" alt="Wing 1" onclick="setAsset('wing', 'assets/wing1.png')" />
+            <img src="assets/wing2.png" alt="Wing 2" onclick="setAsset('wing', 'assets/wing2.png')" />
+            <img src="assets/wing3.png" alt="Wing 2" onclick="setAsset('wing', 'assets/wing3.png')" />
+            <img src="assets/wing4.png" alt="Wing 2" onclick="setAsset('wing', 'assets/wing4.png')" />
+            <img src="assets/wing4.png" alt="Wing 2" onclick="setAsset('wing', 'assets/wing4.png')" />
+            <img src="assets/wing4.png" alt="Wing 2" onclick="setAsset('wing', 'assets/wing4.png')" />
+            <img src="assets/wing4.png" alt="Wing 2" onclick="setAsset('wing', 'assets/wing4.png')" />
+            <img src="assets/wing4.png" alt="Wing 2" onclick="setAsset('wing', 'assets/wing4.png')" />
+            <img src="assets/wing4.png" alt="Wing 2" onclick="setAsset('wing', 'assets/wing4.png')" />
+            <img src="assets/wing4.png" alt="Wing 2" onclick="setAsset('wing', 'assets/wing4.png')" />
+            <img src="assets/wing4.png" alt="Wing 2" onclick="setAsset('wing', 'assets/wing4.png')" />
+            <img src="assets/wing4.png" alt="Wing 2" onclick="setAsset('wing', 'assets/wing4.png')" />
+        </div>
+
+        <button onclick="clearAll()">Reset</button>
+        <button onclick="downloadMeme()">Download Meme</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
