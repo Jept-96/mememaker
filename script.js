@@ -1,7 +1,7 @@
 const canvas = document.getElementById('memeCanvas');
 const ctx = canvas.getContext('2d');
 const baseImage = new Image();
-baseImage.src = 'assets/base-image.jpg'; // Path to your base cat image
+baseImage.src = 'assets/base-image.png'; // Path to your base cat image
 
 let selectedHat = null;
 let selectedBackground = null;
